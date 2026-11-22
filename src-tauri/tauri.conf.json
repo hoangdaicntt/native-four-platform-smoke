@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Tauri Workflow Smoke",
+  "version": "1.0.0",
+  "identifier": "com.example.tauri-workflow-smoke",
+  "build": {
+    "beforeBuildCommand": "pnpm build:web",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Tauri Workflow Smoke",
+        "width": 640,
+        "height": 360
+      }
+    ]
+  },
+  "bundle": {
+    "active": false
+  }
+}
