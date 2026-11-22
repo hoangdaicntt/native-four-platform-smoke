@@ -1,0 +1,17 @@
+{
+  "name": "electron-workflow-smoke",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/main.js",
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "start": "electron .",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "electron": "45.4.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1"
+  }
+}
