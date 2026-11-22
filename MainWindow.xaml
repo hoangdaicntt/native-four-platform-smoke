@@ -1,0 +1,14 @@
+<Window
+    x:Class="NativeSmoke.Windows.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Native Windows Smoke">
+    <Grid>
+        <TextBlock
+            x:Name="WorkflowStatus"
+            AutomationProperties.AutomationId="workflow-status"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="28" />
+    </Grid>
+</Window>
