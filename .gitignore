@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+.expo/
+dist/
+build/
+target/
+bin/
+obj/
+DerivedData/
+*.user
+*.p12
+*.pfx
+*.mobileprovision
