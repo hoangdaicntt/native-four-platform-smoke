@@ -5,6 +5,8 @@
   "packageManager": "pnpm@9.15.9",
   "scripts": {
     "build:web": "node scripts/build-web.mjs",
+    "test": "pnpm build:web && cargo test --manifest-path src-tauri/Cargo.toml",
+    "build": "tauri build --debug --no-bundle",
     "tauri": "tauri"
   },
   "dependencies": {
